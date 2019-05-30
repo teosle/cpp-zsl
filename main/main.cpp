@@ -45,7 +45,15 @@ using namespace std;
         if(clk==fib){return(wyn3); break;}
     }
 
-}
+    }
+
+    int trojkat(int ram1, int ram2, int ram3){
+        //funkcja zwraca 1 jako "tak" i 0 jako "nie"
+
+        if(ram1>ram2+ram3 || ram2>ram1+ram3 || ram3>ram1+ram2){return 1;}
+        else{return 0;}
+
+    }
 
 int main()
 {
@@ -55,8 +63,6 @@ int main()
     cout<< "Naciœnij 3 aby wykonaæ dzielenie \n";
     cout<< "Naciœnij 4 any wykonaæ ci¹g Fibonaciego \n";
     cout<< "Naciœnij 5 aby wykonaæ silnie \n";
-
-
 
     return 0;
 }
