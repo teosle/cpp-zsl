@@ -49,14 +49,49 @@ using namespace std;
 
 int main()
 {
-    cout<< "Naciœnij 1 aby wykonaæ dodawanie \n";
-    cout<< "Naciœnij 2 aby wykonaæ odejmowanie \n";
-    cout<< "Naciœnij 3 aby wykonaæ mno¿enie \n";
-    cout<< "Naciœnij 3 aby wykonaæ dzielenie \n";
-    cout<< "Naciœnij 4 any wykonaæ ci¹g Fibonaciego \n";
-    cout<< "Naciœnij 5 aby wykonaæ silnie \n";
+    int choice = 0;
+    int a;
+    int b;
+    cout<< "Nacisnij 1 aby wykonac dodawanie \n";
+    cout<< "Nacisnij 2 aby wykonac odejmowanie \n";
+    cout<< "Nacisnij 3 aby wykonac mnozenie \n";
+    cout<< "Nacisnij 3 aby wykonac dzielenie \n";
+    cout<< "Nacisnij 4 any wykonac ciag Fibonaciego \n";
+    cout<< "Nacisnij 5 aby wykonac silnie \n";
+    cout<<">", cin>>choice, cout<<"\n";
 
 
-
+    if(choice == 1){
+        cout<<"Podaj liczby: \n";
+        cout<<"a: \n";
+        cin>>a;
+        cout<<"b: \n";
+        cin>>b;
+        cout<<dodawanie(a, b)<<endl;
+    }
+    if(choice == 2){
+        cout<<"Podaj liczby: \n";
+        cout<<"a: \n";
+        cin>>a;
+        cout<<"b: \n";
+        cin>>b;
+        cout<<odejmowanie(a, b)<<endl;
+    }
+    if(choice == 3){
+        cout<<"Podaj liczby: \n";
+        cout<<"a: \n";
+        cin>>a;
+        cout<<"b: \n";
+        cin>>b;
+        cout<<mnozenie(a, b)<<endl;
+    }
+    if(choice == 4){
+        cout<<"Podaj liczby: \n";
+        cout<<"a: \n";
+        cin>>a;
+        cout<<"b: \n";
+        cin>>b;
+        cout<<dzielenie(a, b)<<endl;
+    }
     return 0;
 }
