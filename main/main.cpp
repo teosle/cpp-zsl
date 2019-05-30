@@ -44,8 +44,25 @@ using namespace std;
 
         if(clk==fib){return(wyn3); break;}
     }
+    }
 
-}
+    int liczbydrugie(int a){
+        int ctr;
+        for(int i=2; i<a; i++){
+            if(a%i!=0){
+               ctr++;
+            }
+        }
+
+        if(ctr==0){
+            cout<<"Liczba pierwsza";
+        }
+        else{
+            cout<<"Liczba nie pierwsza";
+        }
+    }
+
+
 
 int main()
 {
