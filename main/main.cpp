@@ -7,7 +7,6 @@
 
 using namespace std;
 
-<<<<<<< HEAD
 
     float dodawanie(float a, float b){
         return a+b;
@@ -29,7 +28,7 @@ using namespace std;
         return pow(a,b);
     }
 
-int fibbonachi(int fib){
+    int fibbonachi(int fib){
     int wyn1, wyn2, wyn3, clk;
     wyn1=1;
     wyn2=1;
@@ -50,6 +49,14 @@ int fibbonachi(int fib){
 
 int main()
 {
+    cout<< "Naciœnij 1 aby wykonaæ dodawanie \n";
+    cout<< "Naciœnij 2 aby wykonaæ odejmowanie \n";
+    cout<< "Naciœnij 3 aby wykonaæ mno¿enie \n";
+    cout<< "Naciœnij 3 aby wykonaæ dzielenie \n";
+    cout<< "Naciœnij 4 any wykonaæ ci¹g Fibonaciego \n";
+    cout<< "Naciœnij 5 aby wykonaæ silnie \n";
+
+
 
     return 0;
 }
