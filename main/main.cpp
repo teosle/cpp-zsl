@@ -45,7 +45,15 @@ using namespace std;
         if(clk==fib){return(wyn3); break;}
     }
 
-}
+    }
+
+    int trojkat(int ram1, int ram2, int ram3){
+        //funkcja zwraca 1 jako "tak" i 0 jako "nie"
+
+        if(ram1>ram2+ram3 || ram2>ram1+ram3 || ram3>ram1+ram2){return 1;}
+        else{return 0;}
+
+    }
 
 int main()
 {
@@ -93,5 +101,6 @@ int main()
         cin>>b;
         cout<<dzielenie(a, b)<<endl;
     }
+
     return 0;
 }
